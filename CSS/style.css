@@ -1,0 +1,48 @@
+
+
+*{
+    text-align: right;
+}
+
+body{
+    background-image: url(/ZTM-WebDev/CSS/Images/White_sand.jpg);
+    background-size:cover;
+}
+
+
+
+
+h2,p{
+    color:#808600;
+    text-align: center;
+    border: 5px solid #428003;
+    cursor: pointer;
+}
+
+
+
+p{  
+    color: #4C001B;
+}
+
+li{ 
+    list-style: none;
+    display: inline-block;
+}
+
+.webText{
+    border: 5px dashed  #678c7c;
+    ;
+}
+.active{
+    color: blue ;
+}
+
+
+#div1{
+    background: rgba(247, 110, 185, 0.2);
+}
+
+#div2{
+    background-color:rgba(114, 132, 1, 0.2) ;
+}
