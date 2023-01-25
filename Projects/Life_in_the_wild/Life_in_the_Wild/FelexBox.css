@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: math;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px gray;
+
+
+}
+
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+    box-shadow: 4px 4px 6px rgba(2, 76, 16, 0.631);
+
+}
+
+img:hover {
+    transform: scale(1.1);
+
+}
