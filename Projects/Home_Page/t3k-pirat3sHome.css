@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background-image: url(/Projects/Home_Page/Images/aueRxn.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+#cardsContainer img:hover {
+
+    transform: scale(2.1);
+
+
+}
+
+#cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.card-body {
+
+    background-color: rgb(25, 76, 178);
+    transition: 3s, 5s;
+    margin: 10px;
+}
+
+
+.card-link {
+
+    color: rgb(0, 0, 0);
+}
+
+#Lorem {
+
+    text-align: center;
+}
+
+#T3K {
+    border-bottom: 2px solid rgb(251, 251, 251);
+    box-shadow: 4px 4px 5px;
+    border-width: 20px;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: treasuremap;
+    src: url(/Projects/Home_Page/Fonts/Treasuremap-Ea1vj.ttf)
+}
+
+div.card {
+
+    margin: 10px;
+}
+
+.video {
+
+    align-items: right;
+}
+
+#gif {
+
+    height: 400px;
+    width: 800px;
+    flex: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 200px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+
+}

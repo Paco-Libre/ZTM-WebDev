@@ -5,14 +5,20 @@
 }
 
 body{
-    background-image: url(/ZTM-WebDev/CSS/Images/White_sand.jpg);
+    background-image: url(/CSS/Images/White_sand.jpg);
     background-size:cover;
 }
 
 
 
 
-h2,p{
+h2{
+    color:#808600;
+    text-align: center;
+    border: 5px solid #428003;
+    cursor: pointer;
+}
+p{
     color:#808600;
     text-align: center;
     border: 5px solid #428003;
@@ -22,9 +28,25 @@ h2,p{
 
 
 p{  
-    color: #4C001B;
+    color: #ca1554;
+    line-height: 50px ;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 105%;
+    font-family: 'Poiret One', cursive;
 }
 
+img{
+    float: right;
+}
+footer{
+    clear: both;
+    text-align:center ;
+    font-weight: bold;
+    font-size: 105%;
+    font-family: 'Poiret One', cursive;
+    border: 2px dashed  #428003;
+}
 li{ 
     list-style: none;
     display: inline-block;
