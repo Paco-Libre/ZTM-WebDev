@@ -1,0 +1,51 @@
+body,
+html {
+  font-family: 'Pirata One', cursive;
+  font-size: 22px;
+  letter-spacing: .1rem;
+  width: 100%;
+  height: 100%;
+  background: url(/Start-up-landing/startup_files/images/TresureChest.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+h1 {
+
+  font-size: 3rem;
+  color: antiquewhite;
+
+}
+
+.buffer {
+  height: 5rem;
+}
+
+.btn {
+  font-weight: 500;
+  border-radius: 300px;
+}
+
+.btn-primary {
+  background-color: #611507;
+  border-color: #d658427e;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  border-color: #F05F44;
+  border-width: 2px;
+}
+
+.btn-xl {
+  padding: 1rem, 2rem;
+}
+
+hr {
+  margin: 20px auto;
+  color: #611507;
+  border: 3px solid #611507;
+  max-width: 65px;
+  opacity: 1;
+}
